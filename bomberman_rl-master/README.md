@@ -12,4 +12,4 @@ Test code for task 1-4 in Main.py, if you want to show, just delete "--no-gui" i
 
 ## Task 1
 
-Use 
+Use RL to improve the performance of our agent.
