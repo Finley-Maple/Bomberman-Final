@@ -29,6 +29,7 @@ def setup_training(self):
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
+    
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
@@ -89,6 +90,7 @@ def reward_from_events(self, events: List[str]) -> int:
     game_rewards = {
         e.COIN_COLLECTED: 1,
         e.KILLED_OPPONENT: 5,
+        e.KILLED_SELF: -10, # idea: killing yourself is bad
         PLACEHOLDER_EVENT: -.1  # idea: the custom event is bad
     }
     reward_sum = 0

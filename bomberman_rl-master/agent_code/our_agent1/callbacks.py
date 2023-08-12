@@ -4,8 +4,8 @@ import random
 
 import numpy as np
 
-
-ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+# Action space without the bomb action
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
 
 
 def setup(self):
@@ -49,6 +49,8 @@ def act(self, game_state: dict) -> str:
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
 
     self.logger.debug("Querying model for action.")
+    
+    
     return np.random.choice(ACTIONS, p=self.model)
 
 
