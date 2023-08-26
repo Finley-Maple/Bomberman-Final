@@ -66,16 +66,47 @@ def state_to_features(game_state: dict) -> np.array:
     what it contains.
 
     :param game_state:  A dictionary describing the current game board.
-    :return: np.array
+    :return: np.array of the same shape of arena   
+        the values represents the state of the tile
     """
     # This is the dict before the game begins and after it ends
     if game_state is None:
         return None
 
-    # For example, you could construct several channels of equal shape, ...
-    channels = []
-    channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    return stacked_channels.reshape(-1)
+    arena = game_state['field']
+    
+    # Arena channel
+    # FREE = 0
+    # WALL = -1
+    # CRATE = 1
+    # FREE_COIN = 2 # if coins are contained in the crate, then the value is 3
+    # CRATE_COIN = 3
+    # FREE_BOMB0 = 4 # just placed
+    # FREE_BOMB1 = 5
+    # FREE_BOMB2 = 6
+    # FREE_BOMB3 = 7 # almost exploding
+    FREE_SELF = 8
+    FREE_OTHER = 9
+
+    # first add coins to the arena
+    coins = game_state['coins']
+    # add the coin value to each position according to the coin position
+    arena[coins] += 2
+    
+    # then add bombs to the arena
+    bombs = game_state['bombs']
+    bomb_pos = [xy for (xy, t) in bombs]
+    bomb_timer = [t for (xy, t) in bombs]
+    # add the BOMB value to each position according to the bomb timer
+    arena[np.array(bomb_pos)[np.array(bomb_timer) == 4]] += 4
+    arena[np.array(bomb_pos)[np.array(bomb_timer) == 3]] += 5
+    arena[np.array(bomb_pos)[np.array(bomb_timer) == 2]] += 6
+    arena[np.array(bomb_pos)[np.array(bomb_timer) == 1]] += 7
+
+    # then add the agent to the arena
+    _, _, _, (x, y) = game_state['self']
+    arena[x, y] = FREE_SELF
+    other_pos = [xy for (n, s, b, xy) in game_state['others']]
+    arena[other_pos] = FREE_OTHER
+
+    return arena

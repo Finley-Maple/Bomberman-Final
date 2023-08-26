@@ -5,6 +5,8 @@ from typing import List
 
 import events as e
 from .callbacks import state_to_features
+from RL_brain import DeepQNetwork
+import settings as s
 
 # This is only an example!
 Transition = namedtuple('Transition',
@@ -13,6 +15,9 @@ Transition = namedtuple('Transition',
 # Hyper parameters -- DO modify
 TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
+
+# Action space without the bomb action
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
 
 # Events
 PLACEHOLDER_EVENT = "PLACEHOLDER"
@@ -55,9 +60,15 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     if ...:
         events.append(PLACEHOLDER_EVENT)
 
+    # initialize the model
+    if self.model is None:
+        self.model = DeepQNetwork(0.0001, len(ACTIONS), 'deepqnet', 512, (s.ROWS, s.COLS))
+
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
 
+    # learn from the transitions
+    self.model.learn(self.transitions)
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
@@ -78,7 +89,6 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     # Store the model
     with open("my-saved-model.pt", "wb") as file:
         pickle.dump(self.model, file)
-
 
 def reward_from_events(self, events: List[str]) -> int:
     """
