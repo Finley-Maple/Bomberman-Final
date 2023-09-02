@@ -7,6 +7,7 @@ import events as e
 from .callbacks import state_to_features
 from RL_brain import DeepQNetwork
 import settings as s
+import numpy as np
 
 # This is only an example!
 Transition = namedtuple('Transition',
@@ -15,6 +16,15 @@ Transition = namedtuple('Transition',
 # Hyper parameters -- DO modify
 TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
 RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
+gamma = 0.99 # discount factor
+mem_size = 10000 # memory size
+epsilon = 1.0 # exploration rate
+batch_size = 32 # batch size
+alpha = 0.0001 # learning rate
+replace_target = 100 # replace target network after ... steps
+q_next_dir = 'q_next'
+q_eval_dir = 'q_eval'
+
 
 # Action space without the bomb action
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
@@ -34,6 +44,26 @@ def setup_training(self):
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
+    self.action_space = [i for i in range(len(ACTIONS))]
+    self.gamma = gamma
+    self.mem_size = mem_size
+    self.mem_cntr = 0
+    self.epsilon = epsilon
+    self.batch_size = batch_size
+    self.replace_target = replace_target
+    self.q_next = DeepQNetwork(alpha, len(ACTIONS), input_dims=(s.ROWS, s.COLS), 
+                                name='q_next', fct_dims=512)
+    self.model = DeepQNetwork(alpha, len(ACTIONS), input_dims=(s.ROWS, s.COLS), 
+                                name='q_eval', fct_dims=512)
+    self.state_memory = np.zeros((self.mem_size, *(s.ROWS, s.COLS)))
+    self.new_state_memory = np.zeros((self.mem_size, *(s.ROWS, s.COLS)))
+    self.action_memory = np.zeros((self.mem_size, len(ACTIONS)), dtype=np.int8)
+    self.reward_memory = np.zeros(self.mem_size)
+    self.terminal_memory = np.zeros(self.mem_size, dtype=np.int8)
+    # self.learn_step_counter = 0
+    # self.q_next_dir = q_next_dir
+    # self.q_eval_dir = q_eval_dir
+    self.replace_target_cnt = 0
     
 
 
@@ -60,15 +90,43 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     if ...:
         events.append(PLACEHOLDER_EVENT)
 
-    # initialize the model
-    if self.model is None:
-        self.model = DeepQNetwork(0.0001, len(ACTIONS), 'deepqnet', 512, (s.ROWS, s.COLS))
-
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
 
     # learn from the transitions
-    self.model.learn(self.transitions)
+    self.learn() 
+
+def learn(self):
+    if self.mem_cntr % self.replace_target == 0:
+        self.update_graph()
+    
+    max_mem = self.mem_cntr if self.mem_cntr < self.mem_size else self.mem_size
+    batch = np.random.choice(max_mem, self.batch_size) # experience replay
+
+    state_batch = self.state_memory[batch]
+    action_batch = self.action_memory[batch]
+    action_values = np.array(self.action_space, dtype=np.int8)
+    action_indices = np.dot(action_batch, action_values)
+    reward_batch = self.reward_memory[batch]
+    new_state_batch = self.new_state_memory[batch]
+    terminal_batch = self.terminal_memory[batch]
+
+    q_eval = self.model.sess.run(self.model.Q_values, 
+                                    feed_dict={self.model.input:new_state_batch})
+    q_next = self.q_next.sess.run(self.q_next.Q_values, 
+                                    feed_dict={self.q_next.input:new_state_batch})
+    q_target = q_eval.copy()
+    batch_index = np.arange(self.batch_size, dtype=np.int32)
+    q_target[batch_index, action_indices] = reward_batch + \
+                                            self.gamma*np.max(q_next, axis=1)*terminal_batch
+
+    _ = self.model.sess.run(self.model.train_op, 
+                                feed_dict={self.model.input:state_batch, 
+                                            self.model.actions:q_target})
+    self.epsilon = self.epsilon * (1-1e-5) if self.epsilon > \
+                    0.01 else 0.01
+    self.learn_step_counter += 1
+
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """

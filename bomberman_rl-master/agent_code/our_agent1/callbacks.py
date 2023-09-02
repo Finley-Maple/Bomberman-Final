@@ -3,6 +3,7 @@ import pickle
 import random
 
 import numpy as np
+import train
 
 # Action space without the bomb action
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
@@ -42,16 +43,16 @@ def act(self, game_state: dict) -> str:
     :return: The action to take as a string.
     """
     # todo Exploration vs exploitation
-    random_prob = .1
-    if self.train and random.random() < random_prob:
+    if self.train and random.random() < self.epsilon:
         self.logger.debug("Choosing action purely at random.")
         # 80%: walk in any direction. 10% wait. 10% bomb.
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
 
+    actions = self.model.sess.run(self.model.Q_values, 
+                                        feed_dict={self.model.input: state_to_features(game_state)})
+    
     self.logger.debug("Querying model for action.")
-    
-    
-    return np.random.choice(ACTIONS, p=self.model)
+    return np.random.choice(ACTIONS, p=actions)
 
 
 def state_to_features(game_state: dict) -> np.array:

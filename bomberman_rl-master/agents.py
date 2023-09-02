@@ -45,7 +45,7 @@ class Agent:
     """
     The Agent game object.
 
-    Architecture:
+    Architecture: 
     In the game process, there is an Agent object that holds the state of the player.
     Via an object of subclassing AgentBackend, it is connected to an AgentRunner instance.
 
