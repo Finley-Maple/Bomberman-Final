@@ -1,0 +1,14 @@
+2023-08-31 18:01:26,310 [terry_jeffords_wrapper] DEBUG: Calling setup on callback.
+2023-08-31 18:01:26,310 [terry_jeffords_code] INFO: Setting up model from scratch.
+2023-08-31 18:01:26,328 [terry_jeffords_wrapper] DEBUG: Got result from callback#setup in 0.018s.
+2023-08-31 18:01:26,328 [terry_jeffords_wrapper] DEBUG: Calling setup_training on callback.
+2023-08-31 18:01:26,329 [terry_jeffords_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2023-08-31 18:01:26,430 [terry_jeffords_wrapper] DEBUG: Calling game_events_occurred on callback.
+2023-08-31 18:01:26,430 [terry_jeffords_code] DEBUG: Encountered game event(s)  in step 1
+2023-08-31 18:01:26,431 [terry_jeffords_wrapper] ERROR: An exception occurred while calling game_events_occurred: operands could not be broadcast together with shapes (0,) (2,) 
+2023-08-31 18:01:31,084 [terry_jeffords_wrapper] DEBUG: Calling end_of_round on callback.
+2023-08-31 18:01:31,084 [terry_jeffords_code] DEBUG: Encountered event(s) 'SURVIVED_ROUND' in final step
+2023-08-31 18:01:31,084 [terry_jeffords_code] INFO: Awarded 0 for events SURVIVED_ROUND
+2023-08-31 18:01:31,084 [terry_jeffords_code] INFO: Training_rewards: []
+2023-08-31 18:01:31,084 [terry_jeffords_code] INFO: Training_states: []
+2023-08-31 18:01:31,364 [terry_jeffords_wrapper] ERROR: An exception occurred while calling end_of_round: mat1 and mat2 shapes cannot be multiplied (1x0 and 1447x2048)
