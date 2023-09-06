@@ -9,6 +9,8 @@ from RL_brain import DeepQNetwork
 import settings as s
 import numpy as np
 
+import tensorflow as tf
+
 # This is only an example!
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
@@ -127,6 +129,22 @@ def learn(self):
                     0.01 else 0.01
     self.learn_step_counter += 1
 
+def save_models(self):
+    self.model.save_model()
+    self.q_next.save_model()
+
+def load_models(self):
+    self.model.load_model()
+    self.q_next.load_model()
+
+def update_graph(self):
+    t_params = self.q_next.params
+    e_params = self.model.params
+    for t, e in zip(t_params, e_params):
+        self.model.sess.run(tf.assign(t, e))
+    self.replace_target_cnt += 1
+    if self.replace_target_cnt % 10 == 0:
+        print('... target network updated ...')
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
