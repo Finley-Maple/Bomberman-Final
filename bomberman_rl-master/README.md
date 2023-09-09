@@ -2,13 +2,14 @@
 Setup for a project/competition amongst students to train a winning Reinforcement Learning agent for the classic game Bomberman.
 
 
-## Test
+## Training
 
 Test code for task 1-4 in Main.py, if you want to show, just delete "--no-gui" in the corresponding command line:
-- Task 1: `python main.py play --no-gui --agents our_agent1 --train 1 --scenario coin-heaven`
-- Task 2: `python main.py play --no-gui --agents our_agent1 --train 1 --scenario classic`
-- Task 3: `python main.py play --no-gui --agents our_agent1 peaceful_agent coin_collector_agent --train 1 --scenario classic`
-- Task 4: `python main.py play --no-gui --agents our_agent1 rule_based_agent --train 1--scenario classic`
+- Task 1: `python main.py play --no-gui --agents Yu_agent --train 1 --scenario coin-heaven --n-rounds 200`
+- Task 2: `python main.py play --no-gui --agents Yu_agent --train 1 --scenario classic`
+- Task 3: `python main.py play --no-gui --agents Yu_agent peaceful_agent coin_collector_agent --train 1 --scenario classic`
+- Task 4: `python main.py play --no-gui --agents Yu_agent rule_based_agent --train 1--scenario classic`
+
 
 ## Task 1
 
@@ -34,3 +35,6 @@ BOMB3 = 8 # almost exploding
 
 Then we can convert the game_state to the S (Maybe we could add neural network here to extract the features of the state).
 
+### Test
+
+`python main.py play --agents Yu_agent --scenario coin-heaven`

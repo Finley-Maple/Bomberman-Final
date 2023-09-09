@@ -11,6 +11,7 @@ game_state = {
         [ 0,  0,  0,  0,  0]
     ]),
     'self': (0, 0, 3, (1, 1)),
+    'others': [],
     'coins': np.array([[3, 1]]),
     'bombs': []
 }
@@ -18,7 +19,7 @@ game_state = {
 # Call the state_to_features function
 features = state_to_features(game_state)
 
-
+print(features.shape)
 
 # Print the resulting feature vector
 print(features)

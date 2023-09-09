@@ -3,11 +3,11 @@ import pickle
 import random
 
 import numpy as np
-import train
-
+import torch
 # Action space without the bomb action
-ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT']
+ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
+MODEL_NAME = 'coin-model.pth'
 
 def setup(self):
     """
@@ -23,14 +23,21 @@ def setup(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
-    if self.train or not os.path.isfile("my-saved-model.pt"):
-        self.logger.info("Setting up model from scratch.")
-        weights = np.random.rand(len(ACTIONS))
-        self.model = weights / weights.sum()
+    if self.train:
+        if os.path.isfile(MODEL_NAME):
+            self.logger.info("Loading model from saved state.")
+            # pytorch load
+            self.model = torch.load(MODEL_NAME)
+        else:
+            self.logger.info("Setting up model from scratch.")
+            weights = np.random.rand(len(ACTIONS))
+            self.model = weights / weights.sum()
     else:
         self.logger.info("Loading model from saved state.")
-        with open("my-saved-model.pt", "rb") as file:
-            self.model = pickle.load(file)
+        # with open("my-saved-model.pt", "rb") as file:
+        #     self.model = pickle.load(file)
+        # pytorch load
+        self.model = torch.load(MODEL_NAME)
 
 
 def act(self, game_state: dict) -> str:
@@ -43,16 +50,25 @@ def act(self, game_state: dict) -> str:
     :return: The action to take as a string.
     """
     # todo Exploration vs exploitation
-    if self.train and random.random() < self.epsilon:
-        self.logger.debug("Choosing action purely at random.")
-        # 80%: walk in any direction. 10% wait. 10% bomb.
-        return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
-
-    actions = self.model.sess.run(self.model.Q_values, 
-                                        feed_dict={self.model.input: state_to_features(game_state)})
-    
-    self.logger.debug("Querying model for action.")
-    return np.random.choice(ACTIONS, p=actions)
+    if self.train:
+        if random.random() < self.epsilon:
+            self.logger.debug("Choosing action purely at random.")
+            # 80%: walk in any direction. 10% wait. 10% bomb.
+            return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        else:
+            features = state_to_features(game_state)
+            features = torch.from_numpy(features).float()
+            action = self.model.forward(features)
+            # print(action)
+            self.logger.debug("Querying model for action.")
+            return ACTIONS[torch.argmax(action)]
+    else:
+        features = state_to_features(game_state)
+        features = torch.from_numpy(features).float()
+        action = self.model.forward(features)
+        # print(action)
+        self.logger.debug("Querying model for action.")
+        return ACTIONS[torch.argmax(action)]
 
 
 def state_to_features(game_state: dict) -> np.array:
@@ -74,40 +90,54 @@ def state_to_features(game_state: dict) -> np.array:
     if game_state is None:
         return None
 
-    arena = game_state['field']
+    arena_channel = game_state['field']
     
-    # Arena channel
+    # first: Arena channel
     # FREE = 0
     # WALL = -1
     # CRATE = 1
     # FREE_COIN = 2 # if coins are contained in the crate, then the value is 3
-    # CRATE_COIN = 3
-    # FREE_BOMB0 = 4 # just placed
-    # FREE_BOMB1 = 5
-    # FREE_BOMB2 = 6
-    # FREE_BOMB3 = 7 # almost exploding
-    FREE_SELF = 8
-    FREE_OTHER = 9
+    
+    # Second: Bomb channel
+    bomb_channel = np.zeros(arena_channel.shape)
+    # No_BOMB = 0
+    # FREE_BOMB0 = 1 # just placed
+    # FREE_BOMB1 = 2
+    # FREE_BOMB2 = 3
+    # FREE_BOMB3 = 4 # almost exploding
+
+    # Third: Agent channel
+    agent_channel = np.zeros(arena_channel.shape)
+    FREE_SELF = 1
+    FREE_OTHER = 2
 
     # first add coins to the arena
     coins = game_state['coins']
     # add the coin value to each position according to the coin position
-    arena[coins] += 2
+    arena_channel[coins] += 2
     
-    # then add bombs to the arena
+    # construct the bomb channel
     bombs = game_state['bombs']
     bomb_pos = [xy for (xy, t) in bombs]
     bomb_timer = [t for (xy, t) in bombs]
-    # add the BOMB value to each position according to the bomb timer
-    arena[np.array(bomb_pos)[np.array(bomb_timer) == 4]] += 4
-    arena[np.array(bomb_pos)[np.array(bomb_timer) == 3]] += 5
-    arena[np.array(bomb_pos)[np.array(bomb_timer) == 2]] += 6
-    arena[np.array(bomb_pos)[np.array(bomb_timer) == 1]] += 7
+    # check the type of bomb_pos and bomb_timer
+    if not bomb_pos == []:
+        # print(bomb_pos)
+        # print(bomb_timer)
+        # add the BOMB value to each position according to the bomb timer
+        bomb_channel[np.array(bomb_pos)[np.array(bomb_timer) == 4]] += 3
+        bomb_channel[np.array(bomb_pos)[np.array(bomb_timer) == 3]] += 4
+        bomb_channel[np.array(bomb_pos)[np.array(bomb_timer) == 2]] += 5
+        bomb_channel[np.array(bomb_pos)[np.array(bomb_timer) == 1]] += 6
 
-    # then add the agent to the arena
+    # construct the agent channel
     _, _, _, (x, y) = game_state['self']
-    arena[x, y] = FREE_SELF
-    other_pos = [xy for (n, s, b, xy) in game_state['others']]
-    arena[other_pos] = FREE_OTHER
+    agent_channel[x, y] = FREE_SELF
 
-    return arena
+    if not game_state['others'] == []:
+        other_pos = [xy for (n, s, b, xy) in game_state['others']]
+        agent_channel[other_pos] = FREE_OTHER
+    
+    # combine the channels in (3,arena_channel.shape)
+    hybrid_matrix = np.array([arena_channel, bomb_channel, agent_channel])
+    return hybrid_matrix
