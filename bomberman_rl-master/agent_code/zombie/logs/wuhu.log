@@ -1,0 +1,66 @@
+2023-09-12 20:19:15,525 [wuhu_wrapper] DEBUG: Calling setup on callback.
+2023-09-12 20:19:15,526 [wuhu_code] INFO: Lade Model 'final_parameters'.
+2023-09-12 20:19:15,527 [wuhu_wrapper] DEBUG: Got result from callback#setup in 0.002s.
+2023-09-12 20:19:15,634 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:15,635 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:15,635 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:15,736 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:15,738 [wuhu_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:15,738 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:15,838 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:15,839 [wuhu_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:15,839 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:15,940 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:15,941 [wuhu_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:15,941 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,042 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,043 [wuhu_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,043 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,143 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,144 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,144 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,246 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,247 [wuhu_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,247 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,348 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,349 [wuhu_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,349 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,450 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,452 [wuhu_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,452 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:16,552 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,553 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,553 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,653 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,654 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,655 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:16,756 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,757 [wuhu_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,757 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:16,858 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,860 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,860 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:16,958 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:16,960 [wuhu_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:16,960 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:17,060 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,062 [wuhu_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,062 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:17,162 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,164 [wuhu_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,164 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:17,264 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,266 [wuhu_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,266 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:17,365 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,367 [wuhu_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,367 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:17,467 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,468 [wuhu_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,468 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-12 20:19:17,568 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,570 [wuhu_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,570 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-12 20:19:17,679 [wuhu_wrapper] DEBUG: Calling act on callback.
+2023-09-12 20:19:17,682 [wuhu_code] INFO: Waehle Aktion WAIT nach dem Hardmax der Q-Funktion
+2023-09-12 20:19:17,682 [wuhu_wrapper] DEBUG: Got result from callback#act in 0.003s.
