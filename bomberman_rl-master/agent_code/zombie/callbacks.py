@@ -4,13 +4,19 @@ import random
 import numpy as np
 import torch
 import os
+from agent_code.zombie.TeacherFeatures import state_to_teacher_features
+
+from agent_code.zombie.TeacherModel import DQN
+
+
 
 from .Model import Maverick
 from .ManagerFeatures import state_to_features
 
 
-# PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
+ 
+PARAMETERS = 'last_save' 
+TEACHERPARAMETER='teacher_parameters'
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -26,10 +32,19 @@ def setup(self):
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
     self.network = Maverick()
+    #############################################################
+    self.teacher = DQN()
+    filename = os.path.join("network_parameters", f'{TEACHERPARAMETER}.pt')
+    self.teacher.load_state_dict(torch.load(filename))
+    self.network.eval()
+    ############################################################
     self.coinlist=[]
+    self.bomb_buffer = 0
+
 
     if self.train:
         self.logger.info("Trainiere ein neues Model.")
+        
 
     else:
         self.logger.info(f"Lade Model '{PARAMETERS}'.")
@@ -38,7 +53,7 @@ def setup(self):
         self.network.eval()
         
 
-
+    
     
     
 
@@ -54,21 +69,27 @@ def act(self, game_state: dict) -> str:
     
     if game_state is None:
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
-
+    #################################################################
     features = state_to_features(self, game_state)
-   
+    teacher_features = state_to_teacher_features(self, game_state)
+    ################################################################
     Q = self.network(features)
+    Q_teacher = self.teacher(teacher_features)
+    ################################################################
+    action_prob	= np.array(torch.softmax(Q,dim=1).detach().squeeze())
+    action_prob_teacher	= np.array(torch.softmax(Q_teacher,dim=1).detach().squeeze())
+    #################################################################
+    best_action = ACTIONS[np.argmax(action_prob)]
+    best_action_teacher = ACTIONS[np.argmax(action_prob_teacher)]
+
 
     if self.train: # Exploration vs exploitation
         eps = self.epsilon_arr[self.episode_counter]
-        if random.random() <= eps: # choose random action
-            action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
-            self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
+        if random.random() <  eps:
+            return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
 
-            return action
                    
-    action_prob	= np.array(torch.softmax(Q,dim=1).detach().squeeze())
-    best_action = ACTIONS[np.argmax(action_prob)]
     self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
 
+    return best_action_teacher
     return best_action

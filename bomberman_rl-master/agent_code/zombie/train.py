@@ -1,5 +1,5 @@
 from typing import List
-from agent_code.zombie.ManagerMemory import add_experience
+from agent_code.zombie.ManagerMemory import add_experience, reward_from_events
 
 import events as e
 
@@ -29,17 +29,19 @@ LOAD = 'last_save'
 SAVE = 'last_save' 
 
 EPSILON = (0.5,0.05)
-LINEAR_CONSTANT_QUOTIENT = 0.9
+LINEAR_CONSTANT_QUOTIENT = 0.5
 
-DISCOUNTING_FACTOR = 0.6
-BUFFERSIZE = 2000 
-BATCH_SIZE = 120 
+DISCOUNTING_FACTOR = 0.8
+BUFFERSIZE = 2000
+BATCH_SIZE = 256 
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
-LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 2400
+LEARNING_RATE = 0.0005
+
+
+TRAINING_EPISODES = 20000
 
 
 
@@ -70,6 +72,8 @@ def setup_training(self):
     self.game_score = 0      
     self.game_score_arr = []
 
+    self.loss_history =[]
+
     self.new_network = copy.deepcopy(self.network) #train not the currently working network
 
 
@@ -87,7 +91,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     add_experience(self, old_game_state, self_action, new_game_state, events)
     if len(self.experience_buffer) > 0:
         train_network(self)
-    
+
     self.game_score += get_score(events)
 
 
@@ -104,7 +108,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
         train_network(self)
 
     update_network(self)
-    
+
     self.game_score += get_score(events)
     track_game_score(self)
 

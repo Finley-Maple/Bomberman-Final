@@ -78,7 +78,7 @@ def train_network(self):
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
-    # prioritized experience replay => choose 50 batch entries with highest residuals
+    # prioritized experience replay => choose 100 batch entries with highest residuals
     Residuals = torch.abs(Y-Q)
     batch_size = min(len(Residuals), 50)
     _, indices = torch.topk(Residuals, batch_size)
@@ -88,6 +88,8 @@ def train_network(self):
 
     # calc the loss and update parameters
     loss = new_network.loss_function(Q_reduced, Y_reduced)
+    self.loss_history.append(loss.item())
+    track_loss(self)
     new_network.optimizer.zero_grad()
     loss.backward()
     new_network.optimizer.step()
@@ -170,3 +172,23 @@ def track_game_score(self, smooth=False):
         ...
     plt.close()
 
+def track_loss(self):
+
+    y = self.loss_history 
+    x = range(len(y))
+    fig, ax = plt.subplots(figsize=(20, 10))
+    ax.set_title('Loss during training', fontsize=35, fontweight='bold')
+    ax.set_xlabel('Epoch', fontsize=25, fontweight='bold')
+    ax.set_ylabel('Loss', fontsize=25, fontweight='bold')
+    ax.grid(axis='y', alpha=0.2, color='gray', zorder=-1)
+    ax.tick_params(labelsize=16)
+
+    ax.plot(x, y, color='blue', linewidth=0.5, alpha=0.7, zorder=0)
+
+    try:
+        plt.savefig('loss_progress.png')
+    except:
+        ...
+
+    plt.close()
+    
