@@ -27,6 +27,7 @@ def add_experience(self, old_game_state, self_action, new_game_state, events):
             new_features = state_to_features(self, new_game_state)
         reward = reward_from_events(self, events)
         reward += count_destroyed_crates(events,old_game_state)
+    
 
         # encode the actions into hot-one, needed in train_network()
         action_idx = ACTIONS_IDX[self_action]
@@ -50,17 +51,17 @@ def reward_from_events(self, events) -> int:
     return: reward based on events in (events.py)
     '''
     game_rewards = {
-        e.COIN_COLLECTED: 100,
-        e.KILLED_OPPONENT: 500,
-        e.MOVED_RIGHT: -1,
-        e.MOVED_LEFT: -1,
-        e.MOVED_UP: -1,
-        e.MOVED_DOWN: -1,
-        e.WAITED: -1,
-        e.INVALID_ACTION: -10,
-        e.BOMB_DROPPED: -1,
-        e.KILLED_SELF: -250,
-        e.GOT_KILLED: -500,
+        e.COIN_COLLECTED: 1,
+        e.KILLED_OPPONENT: 5,
+        e.MOVED_RIGHT: -0.01,
+        e.MOVED_LEFT: -0.01,
+        e.MOVED_UP: -0.01,
+        e.MOVED_DOWN: -0.01,
+        e.WAITED: -0.01,
+        e.INVALID_ACTION: -1,
+        e.BOMB_DROPPED: -0.01,
+        e.KILLED_SELF: -2.5,
+        e.GOT_KILLED: -5,
     }
 
     reward_sum = 0
@@ -101,7 +102,7 @@ def count_destroyed_crates(events,new_game_state):
                     elif tile == 1:
                         destroyed_count += 1
     
-    return destroyed_count * 33
+    return destroyed_count * 0.03
 
 
     

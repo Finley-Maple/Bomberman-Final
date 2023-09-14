@@ -36,7 +36,7 @@ def setup(self):
     self.teacher = DQN()
     filename = os.path.join("network_parameters", f'{TEACHERPARAMETER}.pt')
     self.teacher.load_state_dict(torch.load(filename))
-    self.network.eval()
+    self.teacher.eval()
     ############################################################
     self.coinlist=[]
     self.bomb_buffer = 0

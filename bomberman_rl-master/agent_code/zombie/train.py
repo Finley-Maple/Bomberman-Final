@@ -23,25 +23,25 @@ import copy
 # 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5 |
 
 #Hyperparameter for Training
-NOT_first_time = True
+NOT_first_time =True
 LOAD = 'last_save'
 # LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
-EPSILON = (0.5,0.05)
-LINEAR_CONSTANT_QUOTIENT = 0.5
+EPSILON = (1.0,0.05)
+LINEAR_CONSTANT_QUOTIENT = 0.8
 
-DISCOUNTING_FACTOR = 0.8
+DISCOUNTING_FACTOR = 0.6
 BUFFERSIZE = 2000
 BATCH_SIZE = 256 
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 
-LEARNING_RATE = 0.0005
+LEARNING_RATE = 0.001
 
 
-TRAINING_EPISODES = 20000
+TRAINING_EPISODES = 400
 
 
 
@@ -55,7 +55,7 @@ def setup_training(self):
     """
     if NOT_first_time: #load current parameters
         self.network.load_state_dict(torch.load(f'network_parameters\{LOAD}.pt'))
-        self.network.eval()
+        print("继承成功")
 
     self.network.initialize_training(LEARNING_RATE, DISCOUNTING_FACTOR, EPSILON, #setup training
                                         BUFFERSIZE, BATCH_SIZE, 
@@ -107,7 +107,6 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     if len(self.experience_buffer) > 0:
         train_network(self)
 
-    update_network(self)
 
     self.game_score += get_score(events)
     track_game_score(self)
@@ -116,6 +115,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     if self.episode_counter % (TRAINING_EPISODES // 100) == 0: #save parameters and the game score array
         save_parameters(self, SAVE)
         save_parameters(self, f"save after {self.episode_counter} iterations")
+        update_network(self)
 
     if e.SURVIVED_ROUND in events:
         self.logger.info("Runde überlebt!")
