@@ -25,6 +25,7 @@ import copy
 #Hyperparameter for Training
 NOT_first_time =True
 LOAD = 'last_save'
+#LOAD = 'save_7'
 # LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
@@ -32,13 +33,13 @@ EPSILON = (1.0,0.05)
 LINEAR_CONSTANT_QUOTIENT = 0.8
 
 DISCOUNTING_FACTOR = 0.6
-BUFFERSIZE = 2000
+BUFFERSIZE = 20000
 BATCH_SIZE = 256 
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.01
 
 
 TRAINING_EPISODES = 400
@@ -56,6 +57,7 @@ def setup_training(self):
     if NOT_first_time: #load current parameters
         self.network.load_state_dict(torch.load(f'network_parameters\{LOAD}.pt'))
         print("继承成功")
+        print(LOAD)
 
     self.network.initialize_training(LEARNING_RATE, DISCOUNTING_FACTOR, EPSILON, #setup training
                                         BUFFERSIZE, BATCH_SIZE, 

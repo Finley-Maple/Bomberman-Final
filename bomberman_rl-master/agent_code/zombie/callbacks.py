@@ -33,10 +33,10 @@ def setup(self):
     """
     self.network = Maverick()
     #############################################################
-    self.teacher = DQN()
-    filename = os.path.join("network_parameters", f'{TEACHERPARAMETER}.pt')
-    self.teacher.load_state_dict(torch.load(filename))
-    self.teacher.eval()
+    #self.teacher = DQN()
+    #filename = os.path.join("network_parameters", f'{TEACHERPARAMETER}.pt')
+    #self.teacher.load_state_dict(torch.load(filename))
+    #self.teacher.eval()
     ############################################################
     self.coinlist=[]
     self.bomb_buffer = 0
@@ -71,16 +71,16 @@ def act(self, game_state: dict) -> str:
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
     #################################################################
     features = state_to_features(self, game_state)
-    teacher_features = state_to_teacher_features(self, game_state)
+    #teacher_features = state_to_teacher_features(self, game_state)
     ################################################################
     Q = self.network(features)
-    Q_teacher = self.teacher(teacher_features)
+    #Q_teacher = self.teacher(teacher_features)
     ################################################################
     action_prob	= np.array(torch.softmax(Q,dim=1).detach().squeeze())
-    action_prob_teacher	= np.array(torch.softmax(Q_teacher,dim=1).detach().squeeze())
+    #action_prob_teacher	= np.array(torch.softmax(Q_teacher,dim=1).detach().squeeze())
     #################################################################
     best_action = ACTIONS[np.argmax(action_prob)]
-    best_action_teacher = ACTIONS[np.argmax(action_prob_teacher)]
+    #best_action_teacher = ACTIONS[np.argmax(action_prob_teacher)]
 
 
     if self.train: # Exploration vs exploitation
@@ -91,5 +91,5 @@ def act(self, game_state: dict) -> str:
                    
     self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
 
-    return best_action_teacher
+    #return best_action_teacher
     return best_action
