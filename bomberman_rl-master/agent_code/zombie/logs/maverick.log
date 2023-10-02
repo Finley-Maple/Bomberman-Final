@@ -1,0 +1,852 @@
+2023-09-08 19:04:36,745 [maverick_wrapper] DEBUG: Calling setup on callback.
+2023-09-08 19:04:36,746 [maverick_code] INFO: Lade Model 'final_parameters'.
+2023-09-08 19:04:36,747 [maverick_wrapper] DEBUG: Got result from callback#setup in 0.002s.
+2023-09-08 19:04:36,853 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:36,854 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:36,854 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:36,955 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:36,955 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:36,956 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,057 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,058 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,058 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,158 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,159 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,159 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,259 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,259 [maverick_code] INFO: Waehle Aktion WAIT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,260 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,362 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,362 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,363 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,466 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,466 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,467 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,568 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,569 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,569 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,671 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,672 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,672 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,771 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,773 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,773 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,873 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,874 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,874 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:37,975 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:37,976 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:37,976 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,075 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,076 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,076 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,176 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,177 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,177 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,279 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,280 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,280 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,381 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,382 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,382 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,482 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,483 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,483 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,585 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,586 [maverick_code] INFO: Waehle Aktion WAIT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,586 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,685 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,686 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,686 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,787 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,788 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,788 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,888 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,889 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,889 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:38,989 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:38,990 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:38,990 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,091 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,092 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,092 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,193 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,194 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,194 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,293 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,294 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,294 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,395 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,396 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,396 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,498 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,499 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,499 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,600 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,601 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,601 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,700 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,701 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,701 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,802 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,802 [maverick_code] INFO: Waehle Aktion WAIT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,803 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:39,904 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:39,905 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:39,905 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,006 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,007 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,007 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,108 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,109 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,109 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:40,210 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,210 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,210 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,311 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,312 [maverick_code] INFO: Waehle Aktion WAIT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,312 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,413 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,414 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,414 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,514 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,515 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,515 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,616 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,617 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,617 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,717 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,718 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,718 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,819 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,820 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,820 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:40,921 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:40,922 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:40,922 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:41,023 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,025 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,025 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:41,125 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,131 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,131 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:41,226 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,227 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,227 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:41,328 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,329 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,329 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:41,430 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,430 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,431 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:41,533 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,535 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,535 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:41,634 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,636 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,636 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:41,736 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,738 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,739 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:41,837 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,839 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,839 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:41,940 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:41,943 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:41,943 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,042 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,044 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,045 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,144 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,147 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,147 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,246 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,252 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,252 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:42,347 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,349 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,349 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:42,449 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,452 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,452 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,551 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,554 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,554 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,653 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,656 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,656 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,755 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,758 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,758 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,856 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,859 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,859 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:42,958 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:42,961 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:42,961 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,060 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,063 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,063 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,162 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,165 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,165 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,264 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,267 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,267 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,367 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,370 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,370 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,468 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,471 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,471 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,570 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,573 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,573 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,672 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,675 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,675 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,774 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,777 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,777 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,876 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,879 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,879 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:43,978 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:43,980 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:43,980 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:44,080 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,083 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,083 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:44,182 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,184 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,185 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:44,283 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,286 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,286 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:44,386 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,389 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,389 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:44,488 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,491 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,491 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:44,590 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,594 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,594 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:44,693 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,696 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,696 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:44,794 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,798 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,798 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:44,896 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:44,901 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:44,901 [maverick_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2023-09-08 19:04:44,998 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,001 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,001 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,100 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,103 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,103 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,202 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,205 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,205 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,303 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,306 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,306 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,403 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,406 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,406 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,505 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,508 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,508 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,606 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,609 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,609 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,708 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,711 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,711 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,810 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,813 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,813 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:45,912 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:45,915 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:45,915 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,013 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,019 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,019 [maverick_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2023-09-08 19:04:46,115 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,117 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,117 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:46,216 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,219 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,219 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,318 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,321 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,321 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,420 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,423 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,423 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,521 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,523 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,523 [maverick_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2023-09-08 19:04:46,623 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,626 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,626 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,725 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,728 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,728 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,827 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,830 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,830 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:46,929 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:46,932 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:46,932 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,032 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,036 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,036 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:47,134 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,137 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,137 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,236 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,239 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,239 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,338 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,344 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,344 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:47,440 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,443 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,443 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,542 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,542 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,543 [maverick_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2023-09-08 19:04:47,644 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,648 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,648 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:47,746 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,749 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,749 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,848 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,851 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,851 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:47,950 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:47,953 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:47,953 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,051 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,054 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,054 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,152 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,155 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,155 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,254 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,259 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,259 [maverick_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2023-09-08 19:04:48,356 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,359 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,360 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:48,458 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,461 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,461 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,560 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,563 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,563 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,661 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,667 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,667 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:48,762 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,765 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,765 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,865 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,868 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,868 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:48,967 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:48,970 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:48,970 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,068 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,071 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,071 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,170 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,173 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,173 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,271 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,274 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,274 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,373 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,376 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,376 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,475 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,479 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,479 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:49,577 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,580 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,580 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,679 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,682 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,682 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,781 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,785 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,785 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:49,882 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,885 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,885 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:49,984 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:49,990 [maverick_code] INFO: Waehle Aktion BOMB nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:49,990 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:50,085 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,088 [maverick_code] INFO: Waehle Aktion DOWN nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,088 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,186 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,189 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,189 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,288 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,291 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,291 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,390 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,393 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,393 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,491 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,494 [maverick_code] INFO: Waehle Aktion UP nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,494 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,593 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,596 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,596 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,695 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,698 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,698 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,797 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,800 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,800 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:50,899 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:50,902 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:50,902 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:51,001 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,004 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,004 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:51,103 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,106 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,107 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:51,205 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,209 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,209 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:51,307 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,313 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,313 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:51,408 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,411 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,411 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:51,511 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,513 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,514 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:51,612 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,616 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,616 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:51,713 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,716 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,716 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:51,815 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,818 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,819 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:51,917 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:51,920 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:51,920 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,018 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,021 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,021 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,120 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,123 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,123 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,222 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,225 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,225 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,322 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,325 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,325 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,424 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,428 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,428 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:52,526 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,529 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,529 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:52,627 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,633 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,633 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:52,729 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,732 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,732 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,831 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,834 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,834 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:52,933 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:52,936 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:52,936 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:53,035 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,039 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,039 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:53,137 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,141 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,141 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:53,239 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,243 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,243 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:53,341 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,344 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,344 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:53,443 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,446 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,446 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:53,545 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,548 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,548 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:53,648 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,651 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,651 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:53,750 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,753 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,753 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:53,852 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,855 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,855 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:53,953 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:53,956 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:53,956 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:54,055 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,059 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,059 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:54,159 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,163 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,163 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:54,259 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,262 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,262 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:54,361 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,365 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,365 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:54,462 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,465 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,465 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:54,564 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,568 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,568 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:54,666 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,669 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,669 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:54,768 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,771 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,771 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:54,869 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,873 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,873 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:54,971 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:54,975 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:54,975 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,072 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,075 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,075 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:55,174 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,178 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,178 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,277 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,281 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,281 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,379 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,382 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,382 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:55,480 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,486 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,486 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:55,582 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,586 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,586 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,684 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,688 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,688 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,786 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,789 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,790 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:55,888 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,891 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,891 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:55,990 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:55,994 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:55,994 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:56,092 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,095 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,095 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:56,193 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,196 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,196 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,294 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,297 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,297 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,396 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,399 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,399 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,498 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,501 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,501 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,601 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,604 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,604 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,703 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,706 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,706 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,806 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,809 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,809 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:56,907 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:56,910 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:56,910 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,008 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,011 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,011 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,110 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,114 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,114 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:57,212 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,215 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,215 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,313 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,316 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,316 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,416 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,420 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,420 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:57,517 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,520 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,520 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,618 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,621 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,621 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,719 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,722 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,722 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,821 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,824 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,824 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:57,924 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:57,927 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:57,928 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:58,025 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,029 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,029 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:58,128 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,132 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,132 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:58,230 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,233 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,233 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,331 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,334 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,334 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,433 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,436 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,437 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,536 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,539 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,539 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,638 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,641 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,641 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,740 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,743 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,743 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,842 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,845 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,845 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:58,944 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:58,948 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:58,948 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:59,046 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,049 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,049 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:59,147 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,150 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,150 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:59,249 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,252 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,253 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:59,351 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,354 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,354 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:59,453 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,456 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,456 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:59,556 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,559 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,559 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:04:59,659 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,663 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,663 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:59,761 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,765 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,765 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:04:59,862 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,865 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,868 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:04:59,964 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:04:59,967 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:04:59,968 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:00,066 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,069 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,070 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,168 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,171 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,171 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,270 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,274 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,274 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:00,372 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,375 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,375 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,474 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,477 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,477 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,576 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,579 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,580 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:00,678 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,681 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,681 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,780 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,783 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,783 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,882 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,885 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,885 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:00,984 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:00,987 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:00,988 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:01,085 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,088 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,089 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:01,186 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,192 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,192 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:05:01,288 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,292 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,292 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:01,390 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,393 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,393 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:01,492 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,495 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,495 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:01,594 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,597 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,597 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:01,696 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,700 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,700 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:01,799 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,803 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,803 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:01,900 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:01,903 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:01,904 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,002 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,005 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,005 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,104 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,107 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,107 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,206 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,209 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,209 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,308 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,312 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,312 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:02,410 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,413 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,413 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,512 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,515 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,515 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,614 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,617 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,617 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,716 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,720 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,720 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:02,818 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,821 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,821 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:02,920 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:02,926 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:02,926 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:05:03,022 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,026 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,026 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,123 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,127 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,127 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:03,225 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,228 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,228 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,327 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,330 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,330 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,429 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,432 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,432 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,530 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,533 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,533 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,633 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,636 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,636 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,735 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,738 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,739 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:03,836 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,839 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,839 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:03,938 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:03,941 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:03,941 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,040 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,043 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,043 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,142 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,145 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,145 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,244 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,248 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,248 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:04,346 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,350 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,350 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2023-09-08 19:05:04,448 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,453 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,454 [maverick_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2023-09-08 19:05:04,550 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,553 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,553 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,652 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,655 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,655 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,754 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,757 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,757 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,856 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,859 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,859 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:04,958 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:04,961 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:04,961 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,060 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,063 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,063 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,162 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,165 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,165 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,264 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,267 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,267 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,366 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,369 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,369 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,468 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,471 [maverick_code] INFO: Waehle Aktion RIGHT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,471 [maverick_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2023-09-08 19:05:05,640 [maverick_wrapper] DEBUG: Calling act on callback.
+2023-09-08 19:05:05,644 [maverick_code] INFO: Waehle Aktion LEFT nach dem Hardmax der Q-Funktion
+2023-09-08 19:05:05,644 [maverick_wrapper] DEBUG: Got result from callback#act in 0.004s.
